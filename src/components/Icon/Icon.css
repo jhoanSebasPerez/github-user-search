@@ -1,0 +1,18 @@
+.search {
+  margin-left: 16px;
+  width: 20px;
+  height: 20px;
+}
+
+.contact {
+  width: 14px;
+  height: 20px;
+}
+
+@media (min-width: 768px) {
+  .search {
+    width: 25px;
+    height: 25px;
+    margin-left: 32px;
+  }
+}
