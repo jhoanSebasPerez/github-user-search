@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useContext, useEffect } from "react";
 import axios from "axios";
 import UserInfo from "../UserInfo";
