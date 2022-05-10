@@ -14,7 +14,6 @@ const CardInfoComponent = () => {
     state: { user, searchText, darkMode, loading },
     updateUser,
     notFoundUser,
-    updateLoading,
   } = useContext(AppContext);
 
   useEffect(() => {

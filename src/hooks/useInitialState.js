@@ -24,17 +24,12 @@ const useInitialState = (initialState) => {
     setState({ ...state, noResult: true, loading: false });
   };
 
-  const updateLoading = () => {
-    setState({ ...state, loading: !state.loading });
-  };
-
   return {
     state,
     updateUser,
     updateSearchText,
     updateDarkMode,
     notFoundUser,
-    updateLoading,
   };
 };
 
