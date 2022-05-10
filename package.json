@@ -1,5 +1,6 @@
 {
   "name": "github-user-search",
+  "homepage": "https://jhoansebasperez.github.io/platzi-merch",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH='./dist' react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
