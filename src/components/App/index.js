@@ -4,18 +4,15 @@ import CardInfo from "../CardInfo";
 import AppContext from "../../context/AppContext";
 import useInitialState from "../../hooks/useInitialState";
 import GlobalStyles from "../../styles/GlobalStyles";
-import usePrefersColorScheme from "use-prefers-color-scheme";
 import "./App.css";
 
 function App() {
-  const prefersColorScheme = usePrefersColorScheme();
-
   const initialState = {
     loading: true,
     user: {},
     noResult: false,
     searchText: "octocat",
-    darkMode: prefersColorScheme === "dark" && true,
+    darkMode: false,
   };
 
   return (
